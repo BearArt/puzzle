@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="MiEstilo.css">
+    <link rel="manifest" href="manifest.json">
+    <link rel="shortcut icon" href="./apple-icon-152x152-seochecker-manifest-117.png">
+</head>
+<body>
+    <h1>Puzzle
+    </h1>
+    <Table >
+        <tr >
+          <td>
+        <input  id="btn1" type="button" class="estiloBotones" value="" onclick="mover('b1')">
+          </td>
+          <td>
+        <input id="btn2" type="button" class="estiloBotones" value="4" onclick="mover('b2')">
+          </td>
+          <td>
+        <input id="btn3" type="button" class="estiloBotones" value="3" onclick="mover('b3')">
+          </td>
+        </tr>
+        
+        <tr >
+          <td >
+        <input id="btn4" type="button" class="estiloBotones" value="2" onclick="mover('b4')">
+          </td>
+          <td>
+        <input id="btn5" type="button" class="estiloBotones" value="1" onclick="mover('b5')">
+          </td>
+          <td>
+        <input id="btn6" type="button" class="estiloBotones" value="5" onclick="mover('b6')">
+          </td>
+        </tr>
+        
+        <tr >
+         <td >
+        <input id="btn7" type="button" class="estiloBotones" value="6" onclick="mover('b7')">
+         </td>
+         <td>
+        <input id="btn8" type="button" class="estiloBotones" value="7" onclick="mover('b8')">
+         </td>
+         <td>
+        <input id="btn9" type="button" class="estiloBotones" value="8" onclick="mover('b9')">
+         </td>
+        </tr>
+          </Table>  
+          <br>
+          <input type="button" value="Reiniciar" onclick="reiniciar()" class="reiniciar">
+          
+          <script src="funcionMover.js"></script>
+          <script src="./RegistroSW.js"></script> 
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    display: table;
+    margin: auto;
+    background-color: magenta;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+   text-align: center;
+   border:1px dotted #000;
+   padding:8px;
+   font-size: 35px;
+   color: rgb(235, 250, 23);
+}
+table{
+    background-color: brown;
+  
+}
+.estiloBotones{
+    width: 80px;
+    height: 80px;
+    background: rgb(216, 206, 214);
+    font-size: 25px; 
+}
+.reiniciar{
+    width: 50%;
+    margin-left: 30%;
+    width: max-content;
+    height: 40px;
+    background: rgb(15, 148, 66);
+    font-size: 20px;
+}
